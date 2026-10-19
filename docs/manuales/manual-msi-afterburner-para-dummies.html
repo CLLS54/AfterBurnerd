@@ -488,7 +488,9 @@ footer b{color:var(--text)}
   .buddy{display:none}
   .tab-panel{display:block!important;page-break-inside:avoid}
   .tab-panel:before{content:attr(data-print-title);display:block;font-weight:800;margin:6px 0;font-size:12pt}
-  figure.shot{break-inside:avoid;border-color:#bbb}
+  figure.shot{break-inside:avoid;page-break-inside:avoid;border-color:#bbb;background:#fff!important}
+  figure.shot .shot-wrap{background:#fff!important}
+  figure.shot img{max-height:690pt;width:auto;max-width:100%;object-fit:contain;margin:0 auto;background:#fff!important}
   figure.shot figcaption{background:#f7f7f5;color:#222}
   .table-wrap{overflow:visible;border-color:#bbb}
   table{min-width:0;font-size:8.5pt}
